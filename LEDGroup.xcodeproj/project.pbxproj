@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B58FF2E419CAB2830041E413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58FF2E319CAB2830041E413 /* Foundation.framework */; };
+		B58FF2E619CAB2830041E413 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58FF2E519CAB2830041E413 /* CoreGraphics.framework */; };
+		B58FF2E819CAB2830041E413 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58FF2E719CAB2830041E413 /* UIKit.framework */; };
+		B58FF2EE19CAB2830041E413 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B58FF2EC19CAB2830041E413 /* InfoPlist.strings */; };
+		B58FF2F019CAB2830041E413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FF2EF19CAB2830041E413 /* main.m */; };
+		B58FF2F419CAB2830041E413 /* LEDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FF2F319CAB2830041E413 /* LEDAppDelegate.m */; };
+		B58FF2F719CAB2830041E413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58FF2F519CAB2830041E413 /* Main.storyboard */; };
+		B58FF2FA19CAB2830041E413 /* LEDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FF2F919CAB2830041E413 /* LEDViewController.m */; };
+		B58FF2FC19CAB2830041E413 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58FF2FB19CAB2830041E413 /* Images.xcassets */; };
+		B58FF30319CAB2830041E413 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58FF30219CAB2830041E413 /* XCTest.framework */; };
+		B58FF30419CAB2830041E413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58FF2E319CAB2830041E413 /* Foundation.framework */; };
+		B58FF30519CAB2830041E413 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58FF2E719CAB2830041E413 /* UIKit.framework */; };
+		B58FF30D19CAB2830041E413 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B58FF30B19CAB2830041E413 /* InfoPlist.strings */; };
+		B58FF30F19CAB2830041E413 /* LEDGroupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FF30E19CAB2830041E413 /* LEDGroupTests.m */; };
+		B58FF31C19CAB2E20041E413 /* LEDWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FF31A19CAB2E20041E413 /* LEDWelcomeViewController.m */; };
+		B58FF31D19CAB2E20041E413 /* LEDWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58FF31B19CAB2E20041E413 /* LEDWelcomeViewController.xib */; };
+		B58FF32519CAB4360041E413 /* welcomeInputEmailButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58FF32019CAB4350041E413 /* welcomeInputEmailButton@2x.png */; };
+		B58FF32619CAB4360041E413 /* welcomeLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58FF32119CAB4350041E413 /* welcomeLogo@2x.png */; };
+		B58FF32719CAB4360041E413 /* welcomeScanButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58FF32219CAB4360041E413 /* welcomeScanButton@2x.png */; };
+		B58FF32819CAB4360041E413 /* welcomeScreenshot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58FF32319CAB4360041E413 /* welcomeScreenshot@2x.png */; };
+		B58FF32919CAB4360041E413 /* welcomeTopBarDivider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58FF32419CAB4360041E413 /* welcomeTopBarDivider@2x.png */; };
+		B58FF32E19CAC2A70041E413 /* LEDScanBCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FF32C19CAC2A70041E413 /* LEDScanBCViewController.m */; };
+		B58FF32F19CAC2A70041E413 /* LEDScanBCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58FF32D19CAC2A70041E413 /* LEDScanBCViewController.xib */; };
+		B58FF33519CACB220041E413 /* LEDThankYouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FF33319CACB220041E413 /* LEDThankYouViewController.m */; };
+		B58FF33619CACB220041E413 /* LEDThankYouViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58FF33419CACB220041E413 /* LEDThankYouViewController.xib */; };
+		B58FF33A19CACBC50041E413 /* thankYouCheckMark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58FF33819CACBC50041E413 /* thankYouCheckMark@2x.png */; };
+		B58FF33B19CACBC50041E413 /* thankYouStartAgain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58FF33919CACBC50041E413 /* thankYouStartAgain@2x.png */; };
+		B58FF33E19CACE030041E413 /* LEDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FF33D19CACE030041E413 /* LEDNavigationController.m */; };
+		B58FF34319CACFE00041E413 /* LEDReadyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58FF34119CACFE00041E413 /* LEDReadyViewController.m */; };
+		B58FF34419CACFE00041E413 /* LEDReadyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58FF34219CACFE00041E413 /* LEDReadyViewController.xib */; };
+		B58FF34919CAD0830041E413 /* readyFinishButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58FF34619CAD0830041E413 /* readyFinishButton@2x.png */; };
+		B58FF34A19CAD0830041E413 /* readyScanItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58FF34719CAD0830041E413 /* readyScanItem@2x.png */; };
+		B58FF34B19CAD0830041E413 /* readyViewScannedItems@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58FF34819CAD0830041E413 /* readyViewScannedItems@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B58FF30619CAB2830041E413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58FF2D819CAB2830041E413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B58FF2DF19CAB2830041E413;
+			remoteInfo = LEDGroup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B58FF2E019CAB2830041E413 /* LEDGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58FF2E319CAB2830041E413 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B58FF2E519CAB2830041E413 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B58FF2E719CAB2830041E413 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B58FF2EB19CAB2830041E413 /* LEDGroup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEDGroup-Info.plist"; sourceTree = "<group>"; };
+		B58FF2ED19CAB2830041E413 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B58FF2EF19CAB2830041E413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B58FF2F119CAB2830041E413 /* LEDGroup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LEDGroup-Prefix.pch"; sourceTree = "<group>"; };
+		B58FF2F219CAB2830041E413 /* LEDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEDAppDelegate.h; sourceTree = "<group>"; };
+		B58FF2F319CAB2830041E413 /* LEDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDAppDelegate.m; sourceTree = "<group>"; };
+		B58FF2F619CAB2830041E413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B58FF2F819CAB2830041E413 /* LEDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEDViewController.h; sourceTree = "<group>"; };
+		B58FF2F919CAB2830041E413 /* LEDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDViewController.m; sourceTree = "<group>"; };
+		B58FF2FB19CAB2830041E413 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B58FF30119CAB2830041E413 /* LEDGroupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDGroupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58FF30219CAB2830041E413 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B58FF30A19CAB2830041E413 /* LEDGroupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEDGroupTests-Info.plist"; sourceTree = "<group>"; };
+		B58FF30C19CAB2830041E413 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B58FF30E19CAB2830041E413 /* LEDGroupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDGroupTests.m; sourceTree = "<group>"; };
+		B58FF31919CAB2E20041E413 /* LEDWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDWelcomeViewController.h; sourceTree = "<group>"; };
+		B58FF31A19CAB2E20041E413 /* LEDWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDWelcomeViewController.m; sourceTree = "<group>"; };
+		B58FF31B19CAB2E20041E413 /* LEDWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LEDWelcomeViewController.xib; sourceTree = "<group>"; };
+		B58FF32019CAB4350041E413 /* welcomeInputEmailButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcomeInputEmailButton@2x.png"; sourceTree = "<group>"; };
+		B58FF32119CAB4350041E413 /* welcomeLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcomeLogo@2x.png"; sourceTree = "<group>"; };
+		B58FF32219CAB4360041E413 /* welcomeScanButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcomeScanButton@2x.png"; sourceTree = "<group>"; };
+		B58FF32319CAB4360041E413 /* welcomeScreenshot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcomeScreenshot@2x.png"; sourceTree = "<group>"; };
+		B58FF32419CAB4360041E413 /* welcomeTopBarDivider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcomeTopBarDivider@2x.png"; sourceTree = "<group>"; };
+		B58FF32B19CAC2A70041E413 /* LEDScanBCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDScanBCViewController.h; sourceTree = "<group>"; };
+		B58FF32C19CAC2A70041E413 /* LEDScanBCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDScanBCViewController.m; sourceTree = "<group>"; };
+		B58FF32D19CAC2A70041E413 /* LEDScanBCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LEDScanBCViewController.xib; sourceTree = "<group>"; };
+		B58FF33219CACB220041E413 /* LEDThankYouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDThankYouViewController.h; sourceTree = "<group>"; };
+		B58FF33319CACB220041E413 /* LEDThankYouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDThankYouViewController.m; sourceTree = "<group>"; };
+		B58FF33419CACB220041E413 /* LEDThankYouViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LEDThankYouViewController.xib; sourceTree = "<group>"; };
+		B58FF33819CACBC50041E413 /* thankYouCheckMark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thankYouCheckMark@2x.png"; sourceTree = "<group>"; };
+		B58FF33919CACBC50041E413 /* thankYouStartAgain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thankYouStartAgain@2x.png"; sourceTree = "<group>"; };
+		B58FF33C19CACE030041E413 /* LEDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDNavigationController.h; sourceTree = "<group>"; };
+		B58FF33D19CACE030041E413 /* LEDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDNavigationController.m; sourceTree = "<group>"; };
+		B58FF34019CACFE00041E413 /* LEDReadyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDReadyViewController.h; sourceTree = "<group>"; };
+		B58FF34119CACFE00041E413 /* LEDReadyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDReadyViewController.m; sourceTree = "<group>"; };
+		B58FF34219CACFE00041E413 /* LEDReadyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LEDReadyViewController.xib; sourceTree = "<group>"; };
+		B58FF34619CAD0830041E413 /* readyFinishButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "readyFinishButton@2x.png"; sourceTree = "<group>"; };
+		B58FF34719CAD0830041E413 /* readyScanItem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "readyScanItem@2x.png"; sourceTree = "<group>"; };
+		B58FF34819CAD0830041E413 /* readyViewScannedItems@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "readyViewScannedItems@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B58FF2DD19CAB2830041E413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58FF2E619CAB2830041E413 /* CoreGraphics.framework in Frameworks */,
+				B58FF2E819CAB2830041E413 /* UIKit.framework in Frameworks */,
+				B58FF2E419CAB2830041E413 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58FF2FE19CAB2830041E413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58FF30319CAB2830041E413 /* XCTest.framework in Frameworks */,
+				B58FF30519CAB2830041E413 /* UIKit.framework in Frameworks */,
+				B58FF30419CAB2830041E413 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B58FF2D719CAB2830041E413 = {
+			isa = PBXGroup;
+			children = (
+				B58FF2E919CAB2830041E413 /* LEDGroup */,
+				B58FF30819CAB2830041E413 /* LEDGroupTests */,
+				B58FF2E219CAB2830041E413 /* Frameworks */,
+				B58FF2E119CAB2830041E413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B58FF2E119CAB2830041E413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF2E019CAB2830041E413 /* LEDGroup.app */,
+				B58FF30119CAB2830041E413 /* LEDGroupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B58FF2E219CAB2830041E413 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF2E319CAB2830041E413 /* Foundation.framework */,
+				B58FF2E519CAB2830041E413 /* CoreGraphics.framework */,
+				B58FF2E719CAB2830041E413 /* UIKit.framework */,
+				B58FF30219CAB2830041E413 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B58FF2E919CAB2830041E413 /* LEDGroup */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF33F19CACFB40041E413 /* LEDReadyViewController */,
+				B58FF33119CACAB80041E413 /* LEDThankYouViewController */,
+				B58FF32A19CAC26B0041E413 /* LEDScanBCViewController */,
+				B58FF31819CAB2C80041E413 /* LEDWelcomeViewController */,
+				B58FF2F219CAB2830041E413 /* LEDAppDelegate.h */,
+				B58FF2F319CAB2830041E413 /* LEDAppDelegate.m */,
+				B58FF2F519CAB2830041E413 /* Main.storyboard */,
+				B58FF2F819CAB2830041E413 /* LEDViewController.h */,
+				B58FF2F919CAB2830041E413 /* LEDViewController.m */,
+				B58FF33C19CACE030041E413 /* LEDNavigationController.h */,
+				B58FF33D19CACE030041E413 /* LEDNavigationController.m */,
+				B58FF2FB19CAB2830041E413 /* Images.xcassets */,
+				B58FF2EA19CAB2830041E413 /* Supporting Files */,
+			);
+			path = LEDGroup;
+			sourceTree = "<group>";
+		};
+		B58FF2EA19CAB2830041E413 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF31E19CAB40C0041E413 /* images */,
+				B58FF2EB19CAB2830041E413 /* LEDGroup-Info.plist */,
+				B58FF2EC19CAB2830041E413 /* InfoPlist.strings */,
+				B58FF2EF19CAB2830041E413 /* main.m */,
+				B58FF2F119CAB2830041E413 /* LEDGroup-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B58FF30819CAB2830041E413 /* LEDGroupTests */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF30E19CAB2830041E413 /* LEDGroupTests.m */,
+				B58FF30919CAB2830041E413 /* Supporting Files */,
+			);
+			path = LEDGroupTests;
+			sourceTree = "<group>";
+		};
+		B58FF30919CAB2830041E413 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF30A19CAB2830041E413 /* LEDGroupTests-Info.plist */,
+				B58FF30B19CAB2830041E413 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B58FF31819CAB2C80041E413 /* LEDWelcomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF31919CAB2E20041E413 /* LEDWelcomeViewController.h */,
+				B58FF31A19CAB2E20041E413 /* LEDWelcomeViewController.m */,
+				B58FF31B19CAB2E20041E413 /* LEDWelcomeViewController.xib */,
+			);
+			name = LEDWelcomeViewController;
+			sourceTree = "<group>";
+		};
+		B58FF31E19CAB40C0041E413 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF34519CAD0710041E413 /* Ready */,
+				B58FF33719CACB750041E413 /* Thank You */,
+				B58FF31F19CAB41A0041E413 /* welcome */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		B58FF31F19CAB41A0041E413 /* welcome */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF32019CAB4350041E413 /* welcomeInputEmailButton@2x.png */,
+				B58FF32119CAB4350041E413 /* welcomeLogo@2x.png */,
+				B58FF32219CAB4360041E413 /* welcomeScanButton@2x.png */,
+				B58FF32319CAB4360041E413 /* welcomeScreenshot@2x.png */,
+				B58FF32419CAB4360041E413 /* welcomeTopBarDivider@2x.png */,
+			);
+			name = welcome;
+			sourceTree = "<group>";
+		};
+		B58FF32A19CAC26B0041E413 /* LEDScanBCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF32B19CAC2A70041E413 /* LEDScanBCViewController.h */,
+				B58FF32C19CAC2A70041E413 /* LEDScanBCViewController.m */,
+				B58FF32D19CAC2A70041E413 /* LEDScanBCViewController.xib */,
+			);
+			name = LEDScanBCViewController;
+			sourceTree = "<group>";
+		};
+		B58FF33119CACAB80041E413 /* LEDThankYouViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF33219CACB220041E413 /* LEDThankYouViewController.h */,
+				B58FF33319CACB220041E413 /* LEDThankYouViewController.m */,
+				B58FF33419CACB220041E413 /* LEDThankYouViewController.xib */,
+			);
+			name = LEDThankYouViewController;
+			sourceTree = "<group>";
+		};
+		B58FF33719CACB750041E413 /* Thank You */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF33819CACBC50041E413 /* thankYouCheckMark@2x.png */,
+				B58FF33919CACBC50041E413 /* thankYouStartAgain@2x.png */,
+			);
+			name = "Thank You";
+			sourceTree = "<group>";
+		};
+		B58FF33F19CACFB40041E413 /* LEDReadyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF34019CACFE00041E413 /* LEDReadyViewController.h */,
+				B58FF34119CACFE00041E413 /* LEDReadyViewController.m */,
+				B58FF34219CACFE00041E413 /* LEDReadyViewController.xib */,
+			);
+			name = LEDReadyViewController;
+			sourceTree = "<group>";
+		};
+		B58FF34519CAD0710041E413 /* Ready */ = {
+			isa = PBXGroup;
+			children = (
+				B58FF34619CAD0830041E413 /* readyFinishButton@2x.png */,
+				B58FF34719CAD0830041E413 /* readyScanItem@2x.png */,
+				B58FF34819CAD0830041E413 /* readyViewScannedItems@2x.png */,
+			);
+			name = Ready;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B58FF2DF19CAB2830041E413 /* LEDGroup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58FF31219CAB2830041E413 /* Build configuration list for PBXNativeTarget "LEDGroup" */;
+			buildPhases = (
+				B58FF2DC19CAB2830041E413 /* Sources */,
+				B58FF2DD19CAB2830041E413 /* Frameworks */,
+				B58FF2DE19CAB2830041E413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEDGroup;
+			productName = LEDGroup;
+			productReference = B58FF2E019CAB2830041E413 /* LEDGroup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B58FF30019CAB2830041E413 /* LEDGroupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58FF31519CAB2830041E413 /* Build configuration list for PBXNativeTarget "LEDGroupTests" */;
+			buildPhases = (
+				B58FF2FD19CAB2830041E413 /* Sources */,
+				B58FF2FE19CAB2830041E413 /* Frameworks */,
+				B58FF2FF19CAB2830041E413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B58FF30719CAB2830041E413 /* PBXTargetDependency */,
+			);
+			name = LEDGroupTests;
+			productName = LEDGroupTests;
+			productReference = B58FF30119CAB2830041E413 /* LEDGroupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B58FF2D819CAB2830041E413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LED;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Mihai;
+				TargetAttributes = {
+					B58FF30019CAB2830041E413 = {
+						TestTargetID = B58FF2DF19CAB2830041E413;
+					};
+				};
+			};
+			buildConfigurationList = B58FF2DB19CAB2830041E413 /* Build configuration list for PBXProject "LEDGroup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B58FF2D719CAB2830041E413;
+			productRefGroup = B58FF2E119CAB2830041E413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B58FF2DF19CAB2830041E413 /* LEDGroup */,
+				B58FF30019CAB2830041E413 /* LEDGroupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B58FF2DE19CAB2830041E413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58FF33619CACB220041E413 /* LEDThankYouViewController.xib in Resources */,
+				B58FF2FC19CAB2830041E413 /* Images.xcassets in Resources */,
+				B58FF34919CAD0830041E413 /* readyFinishButton@2x.png in Resources */,
+				B58FF31D19CAB2E20041E413 /* LEDWelcomeViewController.xib in Resources */,
+				B58FF2EE19CAB2830041E413 /* InfoPlist.strings in Resources */,
+				B58FF32519CAB4360041E413 /* welcomeInputEmailButton@2x.png in Resources */,
+				B58FF32719CAB4360041E413 /* welcomeScanButton@2x.png in Resources */,
+				B58FF32619CAB4360041E413 /* welcomeLogo@2x.png in Resources */,
+				B58FF2F719CAB2830041E413 /* Main.storyboard in Resources */,
+				B58FF32819CAB4360041E413 /* welcomeScreenshot@2x.png in Resources */,
+				B58FF34A19CAD0830041E413 /* readyScanItem@2x.png in Resources */,
+				B58FF33B19CACBC50041E413 /* thankYouStartAgain@2x.png in Resources */,
+				B58FF34B19CAD0830041E413 /* readyViewScannedItems@2x.png in Resources */,
+				B58FF33A19CACBC50041E413 /* thankYouCheckMark@2x.png in Resources */,
+				B58FF32F19CAC2A70041E413 /* LEDScanBCViewController.xib in Resources */,
+				B58FF34419CACFE00041E413 /* LEDReadyViewController.xib in Resources */,
+				B58FF32919CAB4360041E413 /* welcomeTopBarDivider@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58FF2FF19CAB2830041E413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58FF30D19CAB2830041E413 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B58FF2DC19CAB2830041E413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58FF33E19CACE030041E413 /* LEDNavigationController.m in Sources */,
+				B58FF32E19CAC2A70041E413 /* LEDScanBCViewController.m in Sources */,
+				B58FF2F419CAB2830041E413 /* LEDAppDelegate.m in Sources */,
+				B58FF31C19CAB2E20041E413 /* LEDWelcomeViewController.m in Sources */,
+				B58FF34319CACFE00041E413 /* LEDReadyViewController.m in Sources */,
+				B58FF2FA19CAB2830041E413 /* LEDViewController.m in Sources */,
+				B58FF2F019CAB2830041E413 /* main.m in Sources */,
+				B58FF33519CACB220041E413 /* LEDThankYouViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58FF2FD19CAB2830041E413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58FF30F19CAB2830041E413 /* LEDGroupTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B58FF30719CAB2830041E413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B58FF2DF19CAB2830041E413 /* LEDGroup */;
+			targetProxy = B58FF30619CAB2830041E413 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B58FF2EC19CAB2830041E413 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58FF2ED19CAB2830041E413 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B58FF2F519CAB2830041E413 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58FF2F619CAB2830041E413 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B58FF30B19CAB2830041E413 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58FF30C19CAB2830041E413 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B58FF31019CAB2830041E413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B58FF31119CAB2830041E413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B58FF31319CAB2830041E413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEDGroup/LEDGroup-Prefix.pch";
+				INFOPLIST_FILE = "LEDGroup/LEDGroup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B58FF31419CAB2830041E413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEDGroup/LEDGroup-Prefix.pch";
+				INFOPLIST_FILE = "LEDGroup/LEDGroup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B58FF31619CAB2830041E413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LEDGroup.app/LEDGroup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEDGroup/LEDGroup-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LEDGroupTests/LEDGroupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B58FF31719CAB2830041E413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LEDGroup.app/LEDGroup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEDGroup/LEDGroup-Prefix.pch";
+				INFOPLIST_FILE = "LEDGroupTests/LEDGroupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B58FF2DB19CAB2830041E413 /* Build configuration list for PBXProject "LEDGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58FF31019CAB2830041E413 /* Debug */,
+				B58FF31119CAB2830041E413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58FF31219CAB2830041E413 /* Build configuration list for PBXNativeTarget "LEDGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58FF31319CAB2830041E413 /* Debug */,
+				B58FF31419CAB2830041E413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B58FF31519CAB2830041E413 /* Build configuration list for PBXNativeTarget "LEDGroupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58FF31619CAB2830041E413 /* Debug */,
+				B58FF31719CAB2830041E413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B58FF2D819CAB2830041E413 /* Project object */;
+}
